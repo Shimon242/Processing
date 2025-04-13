@@ -1,0 +1,34 @@
+192.168.1.10 - - [12/Apr/2025:13:42:10 +0000] "GET /index.html HTTP/1.1" 200 1024
+203.0.113.55 - - [12/Apr/2025:13:42:12 +0000] "POST /login HTTP/1.1" 302 512
+198.51.100.23 - - [12/Apr/2025:13:42:15 +0000] "GET /about HTTP/1.1" 200 850
+192.168.1.12 - - [12/Apr/2025:13:42:17 +0000] "GET /style.css HTTP/1.1" 200 1234
+10.0.0.5 - - [12/Apr/2025:13:42:19 +0000] "GET /contact HTTP/1.1" 404 320
+198.51.100.55 - - [12/Apr/2025:13:42:22 +0000] "GET /dashboard HTTP/1.1" 403 640
+203.0.113.9 - - [12/Apr/2025:13:42:25 +0000] "GET /favicon.ico HTTP/1.1" 200 543
+192.0.2.88 - - [12/Apr/2025:13:42:28 +0000] "GET /images/logo.png HTTP/1.1" 200 2048
+198.51.100.77 - - [12/Apr/2025:13:42:31 +0000] "GET /scripts/app.js HTTP/1.1" 200 1500
+203.0.113.15 - - [12/Apr/2025:13:42:35 +0000] "GET /admin HTTP/1.1" 401 298
+
+Apr 12 13:42:40 server1 telnetd[2741]: connect from 45.33.32.156
+Apr 12 13:42:41 server1 telnetd[2741]: login failed from 45.33.32.156
+Apr 12 13:42:42 server1 telnetd[2741]: connect from 66.70.101.45
+Apr 12 13:42:42 server1 telnetd[2741]: login failed from 66.70.101.45
+Apr 12 13:42:44 server1 telnetd[2741]: connect from 185.220.101.29
+Apr 12 13:42:44 server1 telnetd[2741]: login failed from 185.220.101.29
+Apr 12 13:42:47 server1 telnetd[2741]: connect from 162.247.74.200
+Apr 12 13:42:47 server1 telnetd[2741]: login failed from 162.247.74.200
+
+192.168.1.15 - - [12/Apr/2025:13:42:50 +0000] "GET /blog HTTP/1.1" 200 876
+203.0.113.55 - - [12/Apr/2025:13:42:52 +0000] "POST /api/data HTTP/1.1" 201 400
+10.0.0.15 - - [12/Apr/2025:13:42:54 +0000] "GET /metrics HTTP/1.1" 200 1024
+198.51.100.2 - - [12/Apr/2025:13:42:57 +0000] "GET /health HTTP/1.1" 200 112
+192.168.1.12 - - [12/Apr/2025:13:43:00 +0000] "GET /robots.txt HTTP/1.1" 200 78
+203.0.113.20 - - [12/Apr/2025:13:43:02 +0000] "GET /api/status HTTP/1.1" 503 204
+198.51.100.55 - - [12/Apr/2025:13:43:05 +0000] "GET /maintenance HTTP/1.1" 503 99
+203.0.113.9 - - [12/Apr/2025:13:43:08 +0000] "GET /login HTTP/1.1" 200 420
+192.0.2.88 - - [12/Apr/2025:13:43:10 +0000] "GET /signup HTTP/1.1" 200 560
+10.0.0.15 - - [12/Apr/2025:13:43:13 +0000] "POST /submit HTTP/1.1" 200 330
+
+Apr 12 13:43:15 server1 telnetd[2741]: connect from 103.21.244.0
+Apr 12 13:43:15 server1 telnetd[2741]: login failed from 103.21.244.0
+
